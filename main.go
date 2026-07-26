@@ -10,6 +10,12 @@ func (Ln *ListNode) ChangeNode() {
 }
 
 func swapPairs(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
 
-	return nil
+	fir, sec := head, head.Next
+	doChange := true
+
+	return head
 }
