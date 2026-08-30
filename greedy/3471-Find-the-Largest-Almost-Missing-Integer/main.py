@@ -1,7 +1,7 @@
-# 3471-Find-the-Largest-Almost-Missing-Integer
+class Solution:
+    def largestInteger(self, nums: List[int], k: int) -> int:
+        l = len(k)
+        res = -1
+        check = {}
 
-def main():
-    print("Hello, 3471-Find-the-Largest-Almost-Missing-Integer!")
-
-if __name__ == "__main__":
-    main()
+        return 0
